@@ -1,5 +1,5 @@
-import './App.css';
-import Header from './Header';
+import "./App.css";
+import Header from "./Header";
 
 function App() {
   // BEM
@@ -7,7 +7,6 @@ function App() {
     <div className="App">
       <h1>Welcome to the better Amazon 🚀</h1>
       <Header />
-      {/* Home */}
     </div>
   );
 }
