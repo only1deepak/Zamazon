@@ -4,15 +4,15 @@ import "./Product.css";
 function Product() {
   return (
     <div className="product">
-      <div className="product_info">
+      <div className="product__info">
         <p>The Lean Startup</p>
 
-        <p className="product_price">
+        <p className="product__price">
           <small>₹</small>
           <strong>199.00</strong>
         </p>
 
-        <div className="product_rating">
+        <div className="product__rating">
           <p>⭐</p>
         </div>
       </div>
