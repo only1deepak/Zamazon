@@ -6,11 +6,35 @@ function Home() {
   return (
     <div className="home">
       <div className="home__container">
-        <img
+        {/* <img
           className="home__image"
-          src="https://images-eu.ssl-images-amazon.com/images/G/02/digital/video/merch2016/Hero/Covid19/Generic/GWBleedingHero_ENG_COVIDUPDATE__XSite_1500x600_PV_en-GB._CB428684220_.jpg"
+          src="https://m.media-amazon.com/images/I/711ZeNTyvAL._SX3000_.jpg"
           alt=""
-        ></img>
+        ></img> */}
+        <div id="home__slider">
+          <figure>
+            <img
+              src="https://m.media-amazon.com/images/I/71QuUk6VrwL._SX3000_.jpg"
+              alt
+            />
+            <img
+              src="https://m.media-amazon.com/images/I/711ZeNTyvAL._SX3000_.jpg"
+              alt
+            />
+            <img
+              src="https://m.media-amazon.com/images/I/61QXUZgqPQL._SX3000_.jpg"
+              alt
+            />
+            <img
+              src="https://m.media-amazon.com/images/I/61898Mo3hsL._SX3000_.jpg"
+              alt
+            />
+            <img
+              src="https://m.media-amazon.com/images/I/61Ny8qTgTyL._SX3000_.jpg"
+              alt
+            />
+          </figure>
+        </div>
         <div className="home__row">
           <Product
             id="12345"
